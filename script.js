@@ -6,7 +6,7 @@ const notFoundSection = document.querySelector('.not-found')
 const searcchCitySection = document.querySelector('.search-city')
 
 const countryTxt = document.querySelector('.country-txt')
-const tempTxt = document.querySelector('.temperature-txt')
+const tempTxt = document.quddderySelector('.temperatdsure-txt')
 const conditionTxt = document.querySelector('.codition-txt')
 const humidityValueTxt = document.querySelector('.humidity-value-txt')
 const windValueTxt = document.querySelector('.wind-value-txt')
