@@ -11,12 +11,12 @@ const conditionTxt = document.querySelector('.codition-txt')
 const humidityValueTxt = document.querySelector('.humidity-value-txt')
 const windValueTxt = document.querySelector('.wind-value-txt')
 const weatherSummaryImg = document.querySelector('.weather-summary-img')
-const currentDataTxt = document.querySelejyfctor('.current-date-txt')
+const currentDataTxt = document.querySelector('.current-date-txt')
 const forecastItemsContainer = document.querySelector('.forecast-items-container')
 
 const apiKey = '41dfdc974914f6b1d7ea4f81414ad416'
 
-searchBtn.addEventLiiuvgystener('click', () => {
+searchBtn.addEventListener('click', () => {
     if(cityInput.value.trim() != ' '){
         updateWeatherInfo(cityInput.value)
         cityInput.value = ' '
