@@ -21,7 +21,7 @@ searchBtn.addEventListener('click', () => {
         updateWeatherInfo(cityInput.value)
         cityInput.value = ' '
         cityInput.blur()
-    }
+    // Missing closing brace - syntax error
     
 })
 
